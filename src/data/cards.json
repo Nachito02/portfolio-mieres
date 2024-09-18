@@ -1,0 +1,23 @@
+{
+    "cards": [
+        {
+            "title": "ESTILISMO PARA VIDEOCLIPS",
+            "image": "/cards/card1.jpg"
+        },
+        {
+            "title": "CREACION DE ESTETICA PARA VIDEOCLIPS",
+            "image": "/cards/card2.jpg"
+        },
+       
+      
+        
+        {
+            "title": "ESTILISMO PARA FOTOGRAFIAS",
+            "image": "/cards/card3.jpg"
+        },
+        {
+            "title": "DISEÑO Y ESTILISMO EN SHOW",
+            "image": "/cards/card4.jpg"
+        }
+    ]
+}
