@@ -1,21 +1,21 @@
 import React from 'react';
-import style from './Cards.module.css';
 import { useNavigate } from 'react-router-dom'
+import style from './PageCard.module.css'
 
-const Cards = ({ title, year, image, path }) => {
+const PageCard = ({ title, year, image, path }) => {
   const navigate= useNavigate();
 
   return (
-    <div className={style.card} onClick={() => {navigate(path)}}>
+    <a href={path} target='_blank' className={style.card} >
       <div className={style.imageContainer}>
         <img src={image} alt="" />
         <div className={style.textOverlay}>
-          <p className={style.title}>{title}</p>
+        
        
         </div>
       </div>
-    </div>
+    </a>
   );
 };
 
-export default Cards;
+export default PageCard;

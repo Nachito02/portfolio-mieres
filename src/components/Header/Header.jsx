@@ -31,7 +31,8 @@ const Header = () => {
 
         <div className={styles.logo_wrap}>
           <div className={`${styles.logo_text} ${styles.logo}`}>
-            <a href="">PORFOLIO ADRIANA MIERES</a>
+            <a href="">PORTFOLIO  </a>
+            <a href="">ADRIANA MIERES</a>
           </div>
         </div>
 
@@ -44,9 +45,9 @@ const Header = () => {
             className={`${styles.hamburger} ${menuOpen ? styles.open : ''}`}
             type="button"
           >
-            <span className={styles.hamburger_top}></span>
-            <span className={styles.hamburger_middle}></span>
-            <span className={styles.hamburger_bottom}></span>
+            <span className={`${styles.hamburger_top} ${menuOpen ? styles.open_menu : ''}`}></span>
+            <span className={`${styles.hamburger_middle} ${menuOpen ? styles.open_menu : ''}`}></span>
+            <span className={`${styles.hamburger_bottom} ${menuOpen ? styles.open_menu : ''}`}></span>
           </button>
       </div>
     </>

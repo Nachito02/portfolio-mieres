@@ -6,7 +6,7 @@ const CardsContainer = () => {
   return (
     <div className={style.cards_container}>
         {cards.cards.map((card, index) => (
-            <Cards key={index} title={card.title} year={card.year} image={card.image} />
+            <Cards key={index} title={card.title} path={card.path}  year={card.year} image={card.image} />
         ))}
     </div>
   )

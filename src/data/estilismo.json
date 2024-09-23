@@ -1,0 +1,19 @@
+{
+    "cards": [
+        {
+            "title": "Me escape",
+            "image": "/page_cards/me-escape.jpg",
+            "link": "https://youtu.be/arWitFXNt6s"
+        },
+        {
+            "title": "Vacilon",
+            "image": "/page_cards/vacilon.jpg",
+            "link": "https://youtu.be/wkLQWU92xAE"
+        },
+        {
+            "title": "Enchuladita",
+            "image": "/page_cards/enchuladita.jpg",
+            "link": "https://youtu.be/Civtu8mBXKg"
+        }
+    ]
+}
